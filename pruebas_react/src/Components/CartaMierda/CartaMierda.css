@@ -1,0 +1,8 @@
+.cartitaPoronga{
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #e4caca11;
+    border-radius: 8px;
+    padding: 10px;
+}
