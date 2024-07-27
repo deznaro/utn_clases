@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.padre {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin-top: 200px;
+    margin-left: 500px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 20px 40px 50px black,
+    inset 0px 0px 20px 5px white ;
+    /* https://cssmatic.com/box-shadow
+        neumorphism.io
+    */
+}
+
+.padre:hover {
+    background-color: #3483fa;
+    transition: 800ms ease-in-out;
+}
+
+header {
+    background-color: #FFE600;
+    padding: 8px 10px 12px;
+}
+
+header input {
+    width: 344px;
+    padding: 10px 60px 10px 15px;
+    background-color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);
+    border-radius: 2px;
+    border: 1px solid transparent;
+}
+
+header input:focus-visible{
+    outline: none;
+    border: 1px solid #3483fa;
+}
+
+header buscador::placeholder{
+    background-color: #999999;
+}

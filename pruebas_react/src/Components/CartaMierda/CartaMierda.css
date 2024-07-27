@@ -1,6 +1,6 @@
 .cartitaPoronga{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 10px;
     background-color: #e4caca11;
     border-radius: 8px;
