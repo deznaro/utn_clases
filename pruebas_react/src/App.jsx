@@ -1,9 +1,6 @@
 import React from 'react'
 import Button from './Components/Button'
-import Layout from './Components/Layout'
-import CodePointInfo from './Components/CodePointInfo'
-import RowInfo from './Components/RowInfo'
-import CartaDeColores from './Components/CartaMierda/CartaMierda'
+import CartaDeColores from './Components/colorCard/colorCard'
 
 function App() {
   const cuadradosColores = [
@@ -24,10 +21,11 @@ function App() {
       fecha: "3 days"
       }
   ]
-  const coloresColores = cuadradosColores.map((carta) => {
-    return (<CartaDeColores colors= {carta.colors} likes= {carta.likes} fecha={carta.fecha} />)
+  const listaColores = cuadradosColores.map((elemento) => {
+    return <div>{elemento}</div>
   })
-return (<div>{coloresColores}</div>)
+  console.log(listaColores)
+
 } 
 
   
